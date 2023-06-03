@@ -1,0 +1,23 @@
+.place__item{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 32px;
+  padding-top: 80px;
+}
+
+.place__item:first-of-type {
+  padding-top: 0;
+}
+@media screen and (max-width:370px) {
+  .place__item {
+    padding-top:50px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+@media screen and (min-width:1281px) {
+  .place__item {
+    margin: 0 auto;
+    max-width: 984px;
+  }
+}

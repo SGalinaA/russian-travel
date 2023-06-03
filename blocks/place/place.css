@@ -1,0 +1,15 @@
+.place {
+  margin:0;
+  padding: 92px 0 0;
+  list-style-type: none;
+ }
+ @media screen and (max-width:320px) {
+  .place {
+    padding: 64px 0 0;
+  }
+ }
+ @media screen and (min-width:321px) and (max-width:768px) {
+  .place {
+    padding: 88px 0 0;
+  }
+ }
