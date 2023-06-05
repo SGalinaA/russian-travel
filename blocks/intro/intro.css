@@ -1,13 +1,11 @@
 .intro {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width:1281px) {
+@media screen and (min-width: 1281px) {
   .intro {
-    margin:0 auto;
-    max-width:984px;
+    margin: 0 auto;
+    max-width: 984px;
   }
 }
-
-

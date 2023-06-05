@@ -1,20 +1,17 @@
 .cover__overlay {
-  background-color: rgba(42, 44, 47, .3);
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-size: 18px;
-  height: calc(100vw * 0.625);
-}
-.cover__overlay:hover{
-  background-color: rgba(42, 44, 47, .7);
+  min-height: calc(100vw * .625);
 }
 
-@media screen and (min-width:1281px){
+@media screen and (min-width:1281px) {
   .cover__overlay {
     max-width: 1184px;
-    max-height:740px;
+    min-height: 740px;
   }
-}
 
+}
