@@ -8,10 +8,9 @@
   min-height: calc(100vw * .625);
 }
 
-@media screen and (min-width:1281px) {
+@media screen and (min-width:1280px) {
   .cover__overlay {
     max-width: 1184px;
     min-height: 740px;
   }
-
 }

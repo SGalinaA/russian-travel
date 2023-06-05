@@ -1,9 +1,10 @@
 .places__item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 32px;
+  column-gap: 40px;
   padding-top: 80px;
   max-width: 984px;
+  margin: 0 auto;
 }
 
 .places__item:first-of-type {
@@ -12,6 +13,7 @@
 
 @media screen and (max-width: 1024px) {
   .places__item {
+    column-gap: 32px;
     padding-top: 73px;
   }
 }

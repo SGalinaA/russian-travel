@@ -1,9 +1,4 @@
 .header__lang {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  gap: 18px;
   color: #fff;
   text-decoration: none;
   font-weight: 400px;
@@ -22,4 +17,8 @@
     font-size: 18px;
     line-height: 20px;
   }
+}
+
+.header__lang:hover {
+  opacity: .8;
 }
